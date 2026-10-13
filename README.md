@@ -8,13 +8,13 @@
 
 | one sec 原版 | 微調前 | 微調後 |
 |---|---|---|
-| <img src="original_dark.png" width="250"> | <img src="tips_dark_old.png" width="250"> | <img src="tips_dark.png" width="250"> |
+| <img src="screenshots/original_dark.png" width="250"> | <img src="screenshots/tips_dark_old.png" width="250"> | <img src="screenshots/tips_dark.png" width="250"> |
 
 淺色模式：
 
 | one sec 原版 | 微調前 | 微調後 |
 |---|---|---|
-| <img src="original_light.png" width="250"> | <img src="tips_light_old.png" width="250"> | <img src="tips_light.png" width="250"> |
+| <img src="screenshots/original_light.png" width="250"> | <img src="screenshots/tips_light_old.png" width="250"> | <img src="screenshots/tips_light.png" width="250"> |
 
 ### 微調內容
 
