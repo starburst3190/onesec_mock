@@ -18,10 +18,10 @@ struct TagLabel: View {
                 Text(title)
             }
             .foregroundStyle(color)
-            .font(.subheadline)
-            .padding(.horizontal, 8)
+            .font(.footnote)
+            .padding(.horizontal, 6)
             .padding(.vertical, 4)
-            .background(.black.opacity(0.15), in: RoundedRectangle(cornerRadius: 4))
+            .background(.black.opacity(0.2), in: RoundedRectangle(cornerRadius: 4))
         }
     }
 }

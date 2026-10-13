@@ -16,7 +16,8 @@ struct TipsView: View {
                 // Cards
                 VStack(alignment: .leading) {
                     Text("Latest").font(.title2).fontWeight(.bold)
-                        .padding(8)
+                        .padding(.top)
+                        .padding([.bottom, .leading], 8)
                     VStack(spacing: 12) {
                         FeaturedCard(tag: "Science", tagIcon: "atom", title: "why scientists love one sec", readTime: 7, backgroundColor: .cardSlate, textColor: .white)
                         
@@ -55,8 +56,10 @@ struct TipsView: View {
                         HStack {
                             ForEach(0..<labels.count) { i in
                                 CategoryChip(title: labels[i], systemImage: icons[i])
+                                    .padding(1)
                             }
                             CategoryChip(title: "FAQ", systemImage: "questionmark.bubble")
+                                .padding(1)
                         }.padding(EdgeInsets(top: 2, leading: 16, bottom: 2, trailing: 16))
                     }
                 }

@@ -18,7 +18,7 @@ struct ArticleCard: View {
     
     var body: some View {
         ZStack(alignment: .topLeading) {
-            RoundedRectangle(cornerRadius: 16)
+            RoundedRectangle(cornerRadius: 20)
                 .foregroundStyle(backgroundColor)
             HStack(spacing: 0) {
                 VStack(alignment: .leading) {
@@ -32,7 +32,7 @@ struct ArticleCard: View {
                         .lineLimit(3)
                         .padding(.bottom, 2)
                     Text("\(readTime) min read")
-                        .font(.subheadline)
+                        .font(.footnote)
                         .foregroundStyle(textColor)
                         .opacity(0.5)
                 }

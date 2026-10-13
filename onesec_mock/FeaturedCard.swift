@@ -17,7 +17,7 @@ struct FeaturedCard: View {
     
     var body: some View {
         ZStack(alignment: .bottomLeading) {
-            RoundedRectangle(cornerRadius: 16)
+            RoundedRectangle(cornerRadius: 20)
                 .foregroundStyle(backgroundColor)
             VStack(alignment: .leading) {
                 TagLabel(title: tag, systemImage: tagIcon, color: textColor)
@@ -28,7 +28,7 @@ struct FeaturedCard: View {
                     .foregroundStyle(textColor)
                     .padding(.bottom, 2)
                 Text("\(readTime) min read")
-                    .font(.subheadline)
+                    .font(.footnote)
                     .foregroundStyle(textColor)
                     .opacity(0.5)
             }

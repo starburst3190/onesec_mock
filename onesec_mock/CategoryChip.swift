@@ -14,12 +14,18 @@ struct CategoryChip: View {
         Button {
             // No action
         } label: {
-            Image(systemName: systemImage)
-            Text(title)
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                Image(systemName: systemImage)
+                    .font(.system(size: 20, weight: .medium))
+                    .frame(height: 0)
+                Text(title)
+                    .font(.system(size: 17, weight: .semibold))
+            }
+            .padding(.horizontal, 4)
+            .padding(.vertical, 5)
         }
         .buttonStyle(.glass)
         .foregroundStyle(.primary)
-        .font(.system(size: 20, weight: .medium))
     }
 }
 
